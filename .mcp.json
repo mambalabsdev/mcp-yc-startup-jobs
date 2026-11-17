@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-yc-startup-jobs": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-yc-startup-jobs"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

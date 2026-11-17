@@ -1,0 +1,54 @@
+{
+  "name": "@mambalabsdev/mcp-yc-startup-jobs",
+  "version": "1.0.0",
+  "description": "MCP server for Y Combinator Startup Jobs: Work at a Startup jobs by role, company, or YC batch.",
+  "type": "module",
+  "bin": {
+    "mcp-yc-startup-jobs": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "y-combinator",
+    "yc",
+    "work-at-a-startup",
+    "startup-jobs",
+    "jobs",
+    "hiring",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/yc-startup-jobs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-yc-startup-jobs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-yc-startup-jobs"
+}
