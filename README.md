@@ -1,6 +1,6 @@
 # Y Combinator Startup Jobs MCP Server
 
-[![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-yc-startup-jobs)](https://www.npmjs.com/package/@mambalabsdev/mcp-yc-startup-jobs) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-yc-startup-jobs)](https://github.com/mambalabsdev/mcp-yc-startup-jobs/blob/main/LICENSE)
+[![MCP Registry](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%3Fsearch%3Dcom.mambabuilt%252Fmcp-yc-startup-jobs%26limit%3D1&query=%24.servers%5B0%5D._meta%5B%22io.modelcontextprotocol.registry%2Fofficial%22%5D.status&label=mcp%20registry&color=blue)](https://registry.modelcontextprotocol.io/v0/servers?search=com.mambabuilt/mcp-yc-startup-jobs&limit=1) [![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-yc-startup-jobs)](https://www.npmjs.com/package/@mambalabsdev/mcp-yc-startup-jobs) [![npm downloads](https://img.shields.io/npm/dm/@mambalabsdev/mcp-yc-startup-jobs)](https://www.npmjs.com/package/@mambalabsdev/mcp-yc-startup-jobs) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-yc-startup-jobs)](https://github.com/mambalabsdev/mcp-yc-startup-jobs/blob/main/LICENSE)
 
 An MCP server for the Mamba Labs Y Combinator Startup Jobs actor on Apify. YC startup jobs as rows.
 
