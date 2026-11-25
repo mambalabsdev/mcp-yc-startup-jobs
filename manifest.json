@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-yc-startup-jobs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Y Combinator Startup Jobs: Work at a Startup jobs by role, company, or YC batch.",
   "author": {
     "name": "Mamba Labs"
